@@ -42,18 +42,9 @@ The dataset includes the following files:
 
 - 'activity_labels.txt': Links the activity ID with their activity name.
 
-- 'Train/X_train.txt': Training set.
+- cleaned data/x"".csv files are cleaned dataset after removing nose. The files are divided into x1, x2, x3, x4, x5 as combined of all of them is too large to upload on GitHub.
 
-- 'Train/y_train.txt': Training labels.
-
-- 'Test/X_test.txt': Test set.
-
-- 'Test/y_test.txt': Test labels.
-
-- 'Train/subject_id_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-
-- 'Test/subject_id_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-
+- cleaned data/y.csv file is labels for the combined (x1, x2, x3, x4, x5) file.
 
 Notes: 
 ======
@@ -64,7 +55,6 @@ Notes:
 - A video of the experiment including an example of the 6 recorded activities with one of the participants can be seen in the following link: http://www.youtube.com/watch?v=XOEN9W05_4A
 
 For more information about this dataset please contact har '@' smartlab.ws or check our website www.smartlab.ws
-
 
 License:
 ========
