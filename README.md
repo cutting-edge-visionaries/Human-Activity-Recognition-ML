@@ -44,8 +44,6 @@ The dataset includes the following files:
 
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 
-- 'features.txt': List of all features.
-
 - 'activity_labels.txt': Links the activity ID with their activity name.
 
 - cleaned data/x"".csv files are cleaned dataset after removing noise. Cleaning is done using code in the file Raw Data/remove noise from raw data.py. The files are divided into x1, x2, x3, x4, x5 as combined of all of them is too large to upload on GitHub.
