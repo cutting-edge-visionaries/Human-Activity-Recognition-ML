@@ -4,15 +4,15 @@ import scipy
 
 
 def load_dataset():
-    x1 = np.loadtxt('x1.csv', delimiter = ',')
-    x2 = np.loadtxt('x2.csv', delimiter = ',')
-    x3 = np.loadtxt('x3.csv', delimiter = ',')
-    x4 = np.loadtxt('x4.csv', delimiter = ',')
-    x5 = np.loadtxt('x5.csv', delimiter = ',')
+    x1 = np.loadtxt('cleaned data/x1.csv', delimiter = ',')
+    x2 = np.loadtxt('cleaned data/x2.csv', delimiter = ',')
+    x3 = np.loadtxt('cleaned data/x3.csv', delimiter = ',')
+    x4 = np.loadtxt('cleaned data/x4.csv', delimiter = ',')
+    x5 = np.loadtxt('cleaned data/x5.csv', delimiter = ',')
     
     X = np.vstack((x1, x2, x3, x4, x5))
     
-    Y = np.loadtxt('y.csv', delimiter = ',')
+    Y = np.loadtxt('cleaned data/y.csv', delimiter = ',')
     
     return X, Y
 
