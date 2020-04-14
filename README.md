@@ -59,6 +59,8 @@ Notes:
 - A video of the experiment including an example of the 6 recorded activities with one of the participants can be seen in the following link: http://www.youtube.com/watch?v=XOEN9W05_4A
 
 
+AUTHORS : [Jaimin](https://github.com/Jaimin09) and [Ummul](https://github.com/Ummulkiram2410)
+
 
 
 
