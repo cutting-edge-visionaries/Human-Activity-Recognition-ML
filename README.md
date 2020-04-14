@@ -36,13 +36,15 @@ The dataset includes the following files:
    Column 4: Label start point (in number of signal log samples (recorded at 50Hz))
    Column 5: Label end point (in number of signal log samples)
 
+- RawData/clean raw data.py : The code in the file is used to remove the noise from the original raw data, and then create cleaned dataset of x.csv and y.csv
+
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 
 - 'features.txt': List of all features.
 
 - 'activity_labels.txt': Links the activity ID with their activity name.
 
-- cleaned data/x"".csv files are cleaned dataset after removing nose. The files are divided into x1, x2, x3, x4, x5 as combined of all of them is too large to upload on GitHub.
+- cleaned data/x"".csv files are cleaned dataset after removing noise. Cleaning is done using code in the file Raw Data/clean raw data.py. The files are divided into x1, x2, x3, x4, x5 as combined of all of them is too large to upload on GitHub.
 
 - cleaned data/y.csv file is labels for the combined (x1, x2, x3, x4, x5) file.
 
